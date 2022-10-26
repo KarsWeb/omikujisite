@@ -6,7 +6,7 @@
 
   btn.addEventListener('click', () => {
     const results = ['大吉！', '吉', '中吉', '凶', '大凶'];
-    const texts = ['いいことあるぜ～！', 'いい感じ！', 'ふつ～', '気を付けて', '今日はやめとこ！'];
+    const texts = ['おめでとう！', 'ナイス！', 'いい感じ！', 'ふきつな予感', 'ギャーー！'];
     const n = Math.floor(Math.random() * results.length);
 
     result.textContent = results[n];
